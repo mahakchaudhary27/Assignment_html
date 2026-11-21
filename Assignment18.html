@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ABC College Admission 2026</title>
+  <style>
+    body { font-family: Georgia, serif; margin: 20px; }
+    header, footer { background-color: #191970; color: white; text-align: center; padding: 15px; }
+    footer { padding: 8px; font-size: 14px; }
+    main { max-width: 600px; margin: 20px auto; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+    th { background-color: #f2f2f2; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ABC College Admission 2026</h1>
+  </header>
+
+  <main>
+    <h2>Courses and Fees</h2>
+    <table>
+      <caption>Available Courses</caption>
+      <thead>
+        <tr>
+          <th>Course</th>
+          <th>Seats</th>
+          <th>Fees</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>B.Tech CSE</td>
+          <td>120</td>
+          <td>₹90,000</td>
+        </tr>
+        <tr>
+          <td>BCA</td>
+          <td>60</td>
+          <td>₹45,000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form action="#" method="POST">
+      <fieldset>
+        <legend>Application Form</legend>
+
+        <label for="sname">Name:</label><br>
+        <input type="text" id="sname" required><br><br>
+
+        <label for="semail">Email:</label><br>
+        <input type="email" id="semail" required><br><br>
+
+        <label for="scourse">Course:</label><br>
+        <select id="scourse">
+          <option value="cse">B.Tech CSE</option>
+          <option value="bca">BCA</option>
+        </select><br><br>
+
+        <label for="statement">Statement:</label><br>
+        <textarea id="statement" rows="3" cols="45" required></textarea><br><br>
+
+        <button type="submit">Apply</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2026 ABC College
+  </footer>
+
+</body>
+</html>
